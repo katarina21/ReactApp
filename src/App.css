@@ -7,9 +7,8 @@
   border-bottom-color: rgb(175, 175, 175);
   align-items: baseline;
   min-height: 80px;
-  padding-left: 900px;
+  padding-left: 500px;
   font-size: xx-large;
-  text-align: center;
 }
 
 .cart-items {
@@ -73,11 +72,12 @@ a {
   color: rgb(230, 82, 197);
   text-decoration: dotted;
   cursor: pointer;
-
+  text-align: center;
 }
 
 .cart-container {
   margin: 30px;
+  
 }
 
 .card-cart {

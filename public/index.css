@@ -1,0 +1,22 @@
+.background{
+    background-image: url("candy-day.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: blur(8px);
+  -webkit-filter: blur(8px);
+
+  height: 100%;
+
+}
+
+.wrapper{
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  position: absolute;
+ z-index: 2;
+ top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
