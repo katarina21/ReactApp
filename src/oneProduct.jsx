@@ -3,7 +3,7 @@ import { BsPlusSquareFill } from "react-icons/bs";
 import { BsFileMinusFill } from "react-icons/bs";
 
 const OneProduct = ({product, onAdd, onRemove}) => {
-    const design = { margin: 10, borderStyle: "dashed" };
+    const design = { margin: 20, borderStyle: "dashed" };
   return (
     <div className="card">
         <img className='card-img-top' src={product.image} alt="Neka slika"/>

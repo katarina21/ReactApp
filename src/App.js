@@ -20,12 +20,14 @@ function App() {
     title: "Cheesecake",
     description: "Vocni kolac",
     amount: 0,
+    image: "/download.jpg"
   },
   {
     id: 3,
     title: "Topla cokolada",
-    description: "bla bla",
+    description: "topli napitak od čokolade",
     amount: 0,
+    image: "/hotchocolate.jpg"
   },
 ]);
 const addToCart = (id) => {
