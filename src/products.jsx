@@ -1,12 +1,17 @@
 import React from 'react'
 import OneProduct from "./oneProduct";
 
-const Products = () => {
+const Products = ({products, onAdd, onRemove}) => {
   return (
     <div className='all-products'>
-        <OneProduct />
-        <OneProduct />
-        <OneProduct />
+        {products.map((product) => (
+            <OneProduct 
+            key={product.id}
+            product={product}
+            onAdd={onAdd}
+            onRemove={onRemove} 
+            />
+        ))}
     </div>
   );
 };
