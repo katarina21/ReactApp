@@ -32,12 +32,14 @@
 
 .all-products {
   display: flex;
-  margin: 200px;
-  margin-left: 400px;
-  margin-right: 400px;
+  margin: 50px;
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   border-style: dashed;
   border-width: 10px;
   border-color: rgb(254, 217, 253);
@@ -53,6 +55,7 @@
 }
 
 .card-body {
+  color:  white;
   margin: 40px;
 }
 
@@ -93,4 +96,20 @@ a {
 .card-img-left {
   border-top-left-radius: 0px;
   border-bottom-left-radius: 20px;
+}
+
+.cart {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  color: white;
+  font-size: 35px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: rgb(242, 230, 255);
+  color: rgb(230, 82, 197);
 }

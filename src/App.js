@@ -4,6 +4,7 @@ import Products from "./products";
 import { useState } from "react";
 import Cart from "./cart";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Footer from "./footer";
 
 function App() {
   const [cartNum, setCartNum] = useState(0);
@@ -75,6 +76,7 @@ const remFromCart = (id) => {
 
       />
     </Routes>
+    <Footer/>
   </BrowserRouter>
 
   );
